@@ -13,10 +13,11 @@ export default function Footer() {
                     </div>
                     <div className="flex flex-col gap-2">
                         <p className="mb-2 font-bold">Produk Optimal</p>
-                        <p className="text-sm">Bimbingan Belajar</p>
-                        <p className="text-sm">Jurnal & Penerbitan</p>
-                        <p className="text-sm">CBT</p>
-                        <p className="text-sm">Artikel</p>
+                        <a href="/" className="text-sm">Beranda</a>
+                        <a href="#courses" className="text-sm">Bimbingan Belajar</a>
+                        <a href="#publisher" className="text-sm">Jurnal & Penerbitan</a>
+                        <a href="#cbt" className="text-sm">CBT</a>
+                        <a href="#article" className="text-sm">Artikel</a>
                     </div>
                     <div className="flex flex-col gap-4">
                         <div className="flex flex-col gap-2">
