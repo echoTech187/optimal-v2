@@ -1,6 +1,10 @@
+"use client";
 import { Icon } from "@iconify/react";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 export default function Services() {
+    const router = useRouter();
+    const handleClick = (service: string) => { router.push(`${service}`) }
     return (
         <>
             <section className="w-full h-full text-center bg-purple-900" id="services">
@@ -24,7 +28,7 @@ export default function Services() {
                                 <li className="relative  before:absolute before:-left-8 before:z-0 before:content-['✓'] before:text-sm before:py-0.5 before:text-center before:text-black/90 before:bg-yellow-300 before:rounded-full before:m-1 before:max-md:w-5 before:max-md:h-5 before:w-6 before:h-6 before:max-md:text-xs marker:text-blue-500  marker:font-bold marker:content-[' '] marker:z-1">Nilai penilaian akhir yang dapat diakses dimana saja dan kapan saja</li>
                                 <li className="relative  before:absolute before:-left-8 before:z-0 before:content-['✓'] before:text-sm before:py-0.5 before:text-center before:text-black/90 before:bg-yellow-300 before:rounded-full before:m-1 before:max-md:w-5 before:max-md:h-5 before:w-6 before:h-6 before:max-md:text-xs marker:text-blue-500  marker:font-bold marker:content-[' '] marker:z-1">Support konsultasi dan penjelasan materi secara real-time</li>
                             </ol>
-                            <button type="button" className="flex w-fit items-center bg-[#FFB800] hover:bg-[#FFB800] text-black max-md:text-xs max-md:px-4 max-md:py-2 py-3 px-6 rounded-full font-semibold tracking-wide cursor-pointer transition ease-in-out duration-300">Pelajari Lebih Lanjut <Icon icon="material-symbols:arrow-right-alt-rounded" width={24} height={24} /></button>
+                            <button type="button" className="flex w-fit items-center bg-[#FFB800] hover:bg-[#FFB800] text-black max-md:text-xs max-md:px-4 max-md:py-2 py-3 px-6 rounded-full font-semibold tracking-wide cursor-pointer transition ease-in-out duration-300" onClick={() => handleClick('http://localhost:3001')}>Pelajari Lebih Lanjut <Icon icon="material-symbols:arrow-right-alt-rounded" width={24} height={24} /></button>
                         </div>
                     </div>
                 </div>
@@ -44,7 +48,7 @@ export default function Services() {
                                 <li className="relative  before:absolute before:-left-8 before:z-0 before:content-['✓'] before:text-sm before:py-0.5 before:text-center before:text-black/90 before:bg-purple-300 before:rounded-full before:m-1 before:max-md:w-5 before:max-md:h-5 before:w-6 before:h-6 before:max-md:text-xs marker:text-blue-500  marker:font-bold marker:content-[' '] marker:z-1  ">Nilai penilaian akhir yang dapat diakses dimana saja dan kapan saja</li>
                                 <li className="relative  before:absolute before:-left-8 before:z-0 before:content-['✓'] before:text-sm before:py-0.5 before:text-center before:text-black/90 before:bg-purple-300 before:rounded-full before:m-1 before:max-md:w-5 before:max-md:h-5 before:w-6 before:h-6 before:max-md:text-xs marker:text-blue-500  marker:font-bold marker:content-[' '] marker:z-1  ">Support konsultasi dan penjelasan materi secara real-time</li>
                             </ol>
-                            <button type="button" className="flex w-fit items-center bg-purple-500 hover:bg-purple-600 text-white max-md:text-xs max-md:px-4 max-md:py-2 py-3 px-6 rounded-full font-semibold tracking-wide cursor-pointer transition ease-in-out duration-300">Pelajari Lebih Lanjut <Icon icon="material-symbols:arrow-right-alt-rounded" width={24} height={24} /></button>
+                            <button type="button" className="flex w-fit items-center bg-purple-500 hover:bg-purple-600 text-white max-md:text-xs max-md:px-4 max-md:py-2 py-3 px-6 rounded-full font-semibold tracking-wide cursor-pointer transition ease-in-out duration-300" onClick={() => handleClick('http://localhost:3002')}>Pelajari Lebih Lanjut <Icon icon="material-symbols:arrow-right-alt-rounded" width={24} height={24} /></button>
                         </div>
                         <div className="w-full md:w-1/2">
                             <Image priority={true} src="/images/asnesia.png" alt="services" width={4000} height={4000} className="w-full" />
@@ -70,7 +74,7 @@ export default function Services() {
                                 <li className="relative  before:absolute before:-left-8 before:z-0 before:content-['✓'] before:text-sm before:py-0.5 before:text-center before:text-black/90 before:bg-yellow-300 before:rounded-full before:m-1 before:max-md:w-5 before:max-md:h-5 before:w-6 before:h-6 before:max-md:text-xs marker:text-blue-500  marker:font-bold marker:content-[' '] marker:z-1  ">Nilai penilaian akhir yang dapat diakses dimana saja dan kapan saja</li>
                                 <li className="relative  before:absolute before:-left-8 before:z-0 before:content-['✓'] before:text-sm before:py-0.5 before:text-center before:text-black/90 before:bg-yellow-300 before:rounded-full before:m-1 before:max-md:w-5 before:max-md:h-5 before:w-6 before:h-6 before:max-md:text-xs marker:text-blue-500  marker:font-bold marker:content-[' '] marker:z-1  ">Support konsultasi dan penjelasan materi secara real-time</li>
                             </ol>
-                            <button type="button" className="flex w-fit items-center bg-[#FFB800] hover:bg-[#FFB800] text-black max-md:text-xs max-md:px-4 max-md:py-2 py-3 px-6 rounded-full font-semibold tracking-wide cursor-pointer transition ease-in-out duration-300">Pelajari Lebih Lanjut <Icon icon="material-symbols:arrow-right-alt-rounded" width={24} height={24} /></button>
+                            <button type="button" className="flex w-fit items-center bg-[#FFB800] hover:bg-[#FFB800] text-black max-md:text-xs max-md:px-4 max-md:py-2 py-3 px-6 rounded-full font-semibold tracking-wide cursor-pointer transition ease-in-out duration-300" onClick={() => handleClick('http://localhost:3001')}>Pelajari Lebih Lanjut <Icon icon="material-symbols:arrow-right-alt-rounded" width={24} height={24} /></button>
                         </div>
                     </div>
                 </div>

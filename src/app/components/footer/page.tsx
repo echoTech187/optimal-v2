@@ -1,4 +1,6 @@
+import { Icon } from "@iconify/react";
 import Image from "next/image";
+import Link from "next/link";
 export default function Footer() {
     return (
         <section className="bg-[#212e42] text-white py-8 px-4 2xl:px-0">
@@ -33,13 +35,13 @@ export default function Footer() {
                                 <span className="w-[100px]">Kontak</span><span>: </span><span className="font-semibold flex-1">+62 812-9255-2552</span>
                             </div>
                         </div>
-                        <div className="flex flex-col gap-2">
+                        <div className="flex flex-col gap-2 text-white">
                             <p className="font-bold">Ikuti Kami</p>
                             <div className="flex gap-4">
-                                <Image priority={true} src="/images/instagram.png" alt="services" width={4000} height={4000} className="w-8 h-8" />
-                                <Image priority={true} src="/images/youtube.png" alt="services" width={4000} height={4000} className="w-8 h-8" />
-                                <Image priority={true} src="/images/tiktok.png" alt="services" width={4000} height={4000} className="w-8 h-8" />
-                                <Image priority={true} src="/images/linkedln.png" alt="services" width={4000} height={4000} className="w-8 h-8" />
+                                <Link href="https://instagram.com/optimaluntuknegeri" className="mt-4 inline-block bg-white/10 hover:bg-white/20 p-2 rounded-full transition" title="@optimaluntuknegeri"><Icon icon="tabler:brand-instagram" /></Link>
+                                <Link href="https://www.tiktok.com/@maskokooo" className="mt-4 inline-block bg-white/10 hover:bg-white/20 p-2 rounded-full transition" title="@maskokooo"><Icon icon="tabler:brand-tiktok-filled" /></Link>
+                                <Link href="https://www.youtube.com/@optimaluntuknegeri" className="mt-4 inline-block bg-white/10 hover:bg-white/20 p-2 rounded-full transition" title="Optimal Untuk Negeri"><Icon icon="tabler:brand-youtube" /></Link>
+                                <Link href="https://id.linkedin.com/company/optimalbynfc" className="mt-4 inline-block bg-white/10 hover:bg-white/20 p-2 rounded-full transition" title="PT Optimal Untuk Negeri"><Icon icon="tabler:brand-linkedin" /></Link>
                             </div>
                         </div>
                     </div>
