@@ -17,7 +17,7 @@ export default function Services() {
                             <Image priority={true} src="/images/ukom.png" alt="services" width={4000} height={4000} className="w-full" />
                         </div>
                         <div className="relative w-full md:w-1/2 flex flex-col gap-4 my-4 ">
-                            <Image priority={true} src="/logo.png" alt="services" width={4000} height={4000} className="w-[20%]" />
+                            <Image priority={true} src="/Optimal.png" alt="services" width={4000} height={4000} className="w-[20%]" />
                             <h1 className="max-md:text-2xl text-4xl font-semibold">Bimbingan Belajar UKOM untuk Berbagai Jurusan Kesehatan</h1>
                             <p className="max-md:text-sm md:text-base xl:text-lg">Satu solusi berbagai bimbingan belajar untuk menghadapi UKOM jurusan kesehatan seperti Keperawatan, Profesi, Bidan, dan Gizi.</p>
                             <ol className="list-disc max-md:text-sm md:text-base xl:text-lg ml-8 flex flex-col justify-start gap-2">
@@ -48,7 +48,7 @@ export default function Services() {
                                 <li className="relative  before:absolute before:-left-8 before:z-0 before:content-['✓'] before:text-sm before:py-0.5 before:text-center before:text-black/90 before:bg-purple-300 before:rounded-full before:m-1 before:max-md:w-5 before:max-md:h-5 before:w-6 before:h-6 before:max-md:text-xs marker:text-blue-500  marker:font-bold marker:content-[' '] marker:z-1  ">Nilai penilaian akhir yang dapat diakses dimana saja dan kapan saja</li>
                                 <li className="relative  before:absolute before:-left-8 before:z-0 before:content-['✓'] before:text-sm before:py-0.5 before:text-center before:text-black/90 before:bg-purple-300 before:rounded-full before:m-1 before:max-md:w-5 before:max-md:h-5 before:w-6 before:h-6 before:max-md:text-xs marker:text-blue-500  marker:font-bold marker:content-[' '] marker:z-1  ">Support konsultasi dan penjelasan materi secara real-time</li>
                             </ol>
-                            <button type="button" className="flex w-fit items-center bg-purple-500 hover:bg-purple-600 text-white max-md:text-xs max-md:px-4 max-md:py-2 py-3 px-6 rounded-full font-semibold tracking-wide cursor-pointer transition ease-in-out duration-300" onClick={() => handleClick('http://localhost:3002')}>Pelajari Lebih Lanjut <Icon icon="material-symbols:arrow-right-alt-rounded" width={24} height={24} /></button>
+                            <button type="button" className="flex w-fit items-center bg-purple-500 hover:bg-purple-600 text-white max-md:text-xs max-md:px-4 max-md:py-2 py-3 px-6 rounded-full font-semibold tracking-wide cursor-pointer transition ease-in-out duration-300" onClick={() => handleClick('http://elearningoptimal.id/login')}>Pelajari Lebih Lanjut <Icon icon="material-symbols:arrow-right-alt-rounded" width={24} height={24} /></button>
                         </div>
                         <div className="w-full md:w-1/2">
                             <Image priority={true} src="/images/asnesia.png" alt="services" width={4000} height={4000} className="w-full" />
@@ -63,7 +63,7 @@ export default function Services() {
                             <Image priority={true} src="/images/homecare.png" alt="services" width={4000} height={4000} className="w-full" />
                         </div>
                         <div className="relative w-full md:w-1/2 flex flex-col gap-4 my-4 ">
-                            <Image priority={true} src="/logo.png" alt="services" width={4000} height={4000} className="w-[20%]" />
+                            <Image priority={true} src="/penerbit-logo.png" alt="services" width={4000} height={4000} className="w-[20%]" />
                             <h1 className="max-md:text-2xl text-4xl font-semibold">Layanan Perawatan Kesehatan di Rumah oleh Perawat Profesional</h1>
                             <p className="max-md:text-sm md:text-base xl:text-lg">Layanan perawatan kesehatan di rumah oleh perawat profesional menyediakan perawatan medis yang berkualitas di lingkungan yang nyaman bagi pasien.</p>
                             <ol className="list-disc max-md:text-sm md:text-base xl:text-lg ml-8 flex flex-col justify-start gap-2">
@@ -74,7 +74,7 @@ export default function Services() {
                                 <li className="relative  before:absolute before:-left-8 before:z-0 before:content-['✓'] before:text-sm before:py-0.5 before:text-center before:text-black/90 before:bg-yellow-300 before:rounded-full before:m-1 before:max-md:w-5 before:max-md:h-5 before:w-6 before:h-6 before:max-md:text-xs marker:text-blue-500  marker:font-bold marker:content-[' '] marker:z-1  ">Nilai penilaian akhir yang dapat diakses dimana saja dan kapan saja</li>
                                 <li className="relative  before:absolute before:-left-8 before:z-0 before:content-['✓'] before:text-sm before:py-0.5 before:text-center before:text-black/90 before:bg-yellow-300 before:rounded-full before:m-1 before:max-md:w-5 before:max-md:h-5 before:w-6 before:h-6 before:max-md:text-xs marker:text-blue-500  marker:font-bold marker:content-[' '] marker:z-1  ">Support konsultasi dan penjelasan materi secara real-time</li>
                             </ol>
-                            <button type="button" className="flex w-fit items-center bg-[#FFB800] hover:bg-[#FFB800] text-black max-md:text-xs max-md:px-4 max-md:py-2 py-3 px-6 rounded-full font-semibold tracking-wide cursor-pointer transition ease-in-out duration-300" onClick={() => handleClick('http://localhost:3001')}>Pelajari Lebih Lanjut <Icon icon="material-symbols:arrow-right-alt-rounded" width={24} height={24} /></button>
+                            <button type="button" className="flex w-fit items-center bg-[#FFB800] hover:bg-[#FFB800] text-black max-md:text-xs max-md:px-4 max-md:py-2 py-3 px-6 rounded-full font-semibold tracking-wide cursor-pointer transition ease-in-out duration-300" onClick={() => handleClick('http://localhost:3002')}>Pelajari Lebih Lanjut <Icon icon="material-symbols:arrow-right-alt-rounded" width={24} height={24} /></button>
                         </div>
                     </div>
                 </div>

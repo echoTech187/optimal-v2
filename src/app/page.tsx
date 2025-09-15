@@ -9,7 +9,7 @@ export default function App() {
     <section className="h-auto w-full">
         <Intro />
         <Services />
-        <Article />
+        {/* <Article /> */}
         <Contact />
     </section>
     </>
