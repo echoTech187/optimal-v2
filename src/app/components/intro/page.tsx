@@ -6,9 +6,9 @@ export default function Intro() {
         <div className="relative w-full max-sm:h-[320px] max-lg:h-[480px] lg:h-[570px]">
             <div className="absolute top-0 left-0 w-full max-sm:h-[320px] max-lg:h-[480px] lg:h-[570px] bg-black opacity-50 -z-1">
                 <video width="320" height="340" loop autoPlay muted controls preload="none" className="aspect-video w-full max-sm:h-[320px] max-lg:h-[480px] lg:h-[570px] object-cover">
-                    <source src="/video/video.mp4" type="video/mp4" />
-                    <source src="/video/video.webm" type="video/webm" />
-                    <source src="/video/video.ogv" type="video/ogg" />
+                    <source src="/video/video-original.mp4" type="video/mp4" />
+                    <source src="/video/video-original.webm" type="video/webm" />
+                    <source src="/video/video-original.ogv" type="video/ogg" />
                     Your browser does not support the video tag.
                 </video>
             </div>
