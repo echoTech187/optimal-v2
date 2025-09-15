@@ -33,7 +33,7 @@ export default function Services() {
                     </div>
                 </div>
             </section>
-            <section className="w-full h-full bg-[#fffbf0] dark:bg-gray-800" id="publisher">
+            <section className="w-full h-full bg-[#fffbf0] dark:bg-gray-800" id="cbt">
                 <div className="max-w-[1300px] mx-auto py-8 px-4">
                     <div className="flex max-md:flex-col w-full h-full gap-4">
                         <div className="relative w-full md:w-1/2 flex flex-col gap-4 my-4 ">
@@ -56,7 +56,7 @@ export default function Services() {
                     </div>
                 </div>
             </section>
-            <section className="w-full h-full bg-[#eff2f8] dark:bg-gray-700" id="cbt">
+            <section className="w-full h-full bg-[#eff2f8] dark:bg-gray-700" id="publisher">
                 <div className="max-w-[1300px] mx-auto py-8 px-4">
                     <div className="flex max-md:flex-col w-full h-full gap-4">
                         <div className="w-full md:w-1/2">
