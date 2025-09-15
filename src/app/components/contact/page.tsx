@@ -3,7 +3,7 @@ import { Icon } from "@iconify/react";
 import Image from "next/image";
 export default function Contact() {
     return (
-        <section className="bg-purple-600/5 dark:bg-gray-900 py-16 px-4 2xl:px-0">
+        <section className="bg-white dark:bg-gray-900 py-16 px-4 2xl:px-0">
             <div className="flex flex-col items-center w-full max-w-[1300px] mx-auto max-sm:px-4">
                 <div className="flex flex-col items-center w-full gap-4">
                     <Image priority={true} src="/Optimal.png" alt="services" width={4000} height={4000} className="h-16 w-auto mb-8" />

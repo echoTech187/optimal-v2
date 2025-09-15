@@ -13,8 +13,8 @@ export default function Services() {
             <section className="w-full h-full bg-amber-900/10 dark:bg-gray-900" id="courses">
                 <div className="max-w-[1300px] mx-auto py-8 px-4">
                     <div className="flex max-md:flex-col w-full h-full gap-4">
-                        <div className="w-full md:w-1/2">
-                            <Image priority={true} src="/images/ukom.png" alt="services" width={4000} height={4000} className="w-full" />
+                        <div className="w-full md:w-1/2 flex items-center">
+                            <Image priority={true} src="/images/bimbel-optimal.png" alt="services" width={4000} height={4000} className="w-full" />
                         </div>
                         <div className="relative w-full md:w-1/2 flex flex-col gap-4 my-4 ">
                             <Image priority={true} src="/Optimal.png" alt="services" width={4000} height={4000} className="w-[20%]" />
