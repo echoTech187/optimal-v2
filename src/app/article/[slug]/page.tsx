@@ -149,8 +149,8 @@ export function generateStaticParams() {
             userPost: "Pradanis Yanuarinda Imkasari",
             postDate: new Date()
 
-        }]
-    console.log(posts)
+        }];
+        
     return posts.map((post) => ({
         slug: post.slug,
         title: post.title,
