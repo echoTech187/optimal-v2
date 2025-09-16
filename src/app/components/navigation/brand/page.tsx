@@ -5,7 +5,7 @@ export default function Logo() {
     return (
         <>
 
-            <div className="flex justify-start items-center h-12 md:h-16 lg:h-18 w-fit relative px-4 md:p-4 py-2 min-xl:px-0 gap-4" >
+            <div className="flex justify-start items-center h-12 md:h-16 lg:h-18 w-fit relative px-4 md:px-4 py-2 min-xl:px-0 gap-4" >
                 <div className="max-md:block hidden cursor-pointer"  aria-haspopup="dialog" aria-expanded="false" aria-controls="menu-drawer" data-overlay="#menu-drawer"><Icon icon="solar:hamburger-menu-bold" className="size-10 text-black/50" /></div>
                 <Link href="/" className="flex justify-start items-center gap-3 cursor-pointer w-full h-full" >
                     <Image src="/logo.png" alt="logo" width={100} height={100} className="w-full h-full" />

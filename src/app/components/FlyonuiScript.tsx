@@ -1,31 +1,35 @@
-"use client";
+// FlyonuiScript.tsx
+'use client';
 
 import { usePathname } from 'next/navigation';
 import { useEffect } from 'react';
 
+
 async function loadFlyonUI() {
-    return import('flyonui/flyonui');
+  return import('flyonui/flyonui');
 }
 
 export default function FlyonuiScript() {
-    const path = usePathname();
-    useEffect(() => {
-        const initFlyonUI = async () => {
-            await loadFlyonUI();
-        };
+  const path = usePathname();
 
-        initFlyonUI();
-    }, []);
+  useEffect(() => {
+    const initFlyonUI = async () => {
+      await loadFlyonUI();
+    };
 
-    useEffect(() => {
-        setTimeout(() => {
-            if (
-                window.FlyonUI &&
-                typeof window.FlyonUI.autoInit === 'function'
-            ) {
-                window.FlyonUI.autoInit();
-            }
-        }, 100);
-    }, [path]);
-    return null;
+    initFlyonUI();
+  }, []);
+
+  useEffect(() => {
+    setTimeout(() => {
+      if (
+        window.HSStaticMethods &&
+        typeof window.HSStaticMethods.autoInit === 'function'
+      ) {
+        window.HSStaticMethods.autoInit();
+      }
+    }, 100);
+  }, [path]);
+
+  return null;
 }
