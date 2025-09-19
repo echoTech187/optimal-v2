@@ -48,8 +48,8 @@ export default function Services() {
                             </ol>
                             <button type="button" className="flex w-fit items-center bg-purple-500 hover:bg-purple-600 text-white max-md:text-xs max-md:px-4 max-md:py-2 py-3 px-6 rounded-full font-semibold tracking-wide cursor-pointer transition ease-in-out duration-300" onClick={() => handleClick('http://elearningoptimal.id/login')}>Pelajari Lebih Lanjut <Icon icon="material-symbols:arrow-right-alt-rounded" width={24} height={24} /></button>
                         </div>
-                        <div className="w-full md:w-1/2">
-                            <Image priority={true} src="/images/asnesia.png" alt="services" width={4000} height={4000} className="w-full" />
+                        <div className="w-full md:w-1/2 flex items-center">
+                            <Image priority={true} src="/images/cbt.png" alt="services" width={4000} height={4000} className="w-full -mt-5" />
                         </div>
                     </div>
                 </div>
@@ -57,8 +57,8 @@ export default function Services() {
             <section className="w-full h-full bg-[#eff2f8] dark:bg-gray-700" id="publisher">
                 <div className="max-w-[1300px] mx-auto py-8 px-4">
                     <div className="flex max-md:flex-col w-full h-full gap-4">
-                        <div className="w-full md:w-1/2">
-                            <Image priority={true} src="/images/homecare.png" alt="services" width={4000} height={4000} className="w-full" />
+                        <div className="w-full md:w-1/2 flex items-center">
+                            <Image priority={true} src="/images/penerbit.png" alt="services" width={4000} height={4000} className="w-full -mt-5" />
                         </div>
                         <div className="relative w-full md:w-1/2 flex flex-col gap-4 my-4 ">
                             <Image priority={true} src="/penerbit-logo.png" alt="services" width={4000} height={4000} className="w-[20%]" />
