@@ -36,7 +36,7 @@ export default function Services() {
                 <div className="max-w-[1300px] mx-auto py-8 px-4">
                     <div className="flex max-md:flex-col w-full h-full gap-4">
                         <div className="relative w-full md:w-1/2 flex flex-col gap-4 my-4 ">
-                            <Image priority={true} src="/Optimal.png" alt="services" width={4000} height={4000} className="w-[20%]" />
+                            <Image priority={true} src="/cbt.png" alt="services" width={4000} height={4000} className="w-[20%]" />
                             <h1 className="max-md:text-2xl text-4xl font-semibold">Siap Lolos UKOM dengan CBT+</h1>
                             <p className="max-md:text-sm md:text-base xl:text-lg">CBT+ adalah solusi terbaik untuk menghadapi UKOM jurusan kesehatan seperti Keperawatan, Profesi, Bidan, dan Gizi.</p>
                             <ol className="list-disc max-md:text-sm md:text-base mb-3 xl:text-lg ml-8 flex flex-col justify-start gap-2">
