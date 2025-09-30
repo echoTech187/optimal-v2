@@ -8,7 +8,7 @@ export default function Services() {
     return (
         <>
             <section className="w-full h-full text-center bg-purple-900" id="services">
-                <h1 className=" text-md md:text-2xl xl:text-4xl font-semibold py-12 text-white max-md:w-full max-md:px-4 w-1/2 mx-auto max-w-[1300px]">Maksimalkan potensi Anda dengan berbagai layanan terbaik kami</h1>
+                <h1 className=" text-md md:text-2xl xl:text-4xl font-semibold py-12 text-white max-md:w-full max-md:px-4 w-1/2 mx-auto max-w-[1300px]">Siap Lolos UKOM? OPTIMAL Hadir dengan Layanan Terbaik untuk Anda</h1>
             </section>
             <section className="w-full h-full bg-amber-900/10 dark:bg-gray-900" id="courses">
                 <div className="max-w-[1300px] mx-auto py-8 px-4">
