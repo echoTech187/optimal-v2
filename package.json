@@ -1,6 +1,7 @@
 {
   "name": "optimal",
   "version": "0.1.0",
+  "homepage":".",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
@@ -8,7 +9,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "flyonui": "^2.4.0",
+    "flyonui": "^2.4.1",
     "next": "15.5.2",
     "react": "19.1.0",
     "react-dom": "19.1.0"
