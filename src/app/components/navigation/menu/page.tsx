@@ -1,22 +1,19 @@
 export default function Navigation() {
     return (
         <>
-            <div className="max-md:hidden flex items-center justify-center w-auto h-full px-4">
+            <div className="max-lg:hidden flex items-center justify-center w-auto h-full px-4">
                 <ul className={`flex items-center justify-center gap-4 font-normal text-gray-500 `}>
                     <li className="relative hover:bg-purple-50 hover:rounded-md hover:text-blue-500  px-4 py-2 cursor-pointer ">
-                        <a href="/">Beranda</a>
+                        <a href="/" className="max-lg:text-sm">Beranda</a>
                     </li>
                     <li className="relative hover:bg-purple-50 hover:rounded-md hover:text-blue-500 px-4 py-2 cursor-pointer">
-                        <a href="#courses">Bimbingan Belajar</a>
+                        <a href="#courses" className="max-lg:text-sm">Bimbingan Belajar</a>
                     </li>
                     <li className="relative hover:bg-purple-50 hover:rounded-md hover:text-blue-500 px-4 py-2 cursor-pointer">
-                        <a href="#cbt">CBT</a>
+                        <a href="#cbt" className="max-lg:text-sm">CBT</a>
                     </li>
                     <li className="relative hover:bg-purple-50 hover:rounded-md hover:text-blue-500 px-4 py-2 cursor-pointer">
-                        <a href="#publisher">Jurnal & Penerbitan</a>
-                    </li>
-                    <li className="relative hover:bg-purple-50 hover:rounded-md hover:text-blue-500 px-4 py-2 cursor-pointer hidden">
-                        <a href="#article">Artikel</a>
+                        <a href="#publisher" className="max-lg:text-sm">Jurnal & Penerbitan</a>
                     </li>
                 </ul>
             </div>

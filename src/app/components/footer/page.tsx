@@ -15,9 +15,8 @@ export default function Footer() {
                         <p className="mb-2 font-bold">Produk Optimal</p>
                         <a href="/" className="text-sm">Beranda</a>
                         <a href="#courses" className="text-sm">Bimbingan Belajar</a>
-                        <a href="#publisher" className="text-sm">Jurnal & Penerbitan</a>
                         <a href="#cbt" className="text-sm">CBT</a>
-                        <a href="#article" className="text-sm">Artikel</a>
+                        <a href="#publisher" className="text-sm">Jurnal & Penerbitan</a>
                     </div>
                     <div className="flex flex-col gap-4">
                         <div className="flex flex-col gap-2">

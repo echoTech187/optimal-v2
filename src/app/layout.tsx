@@ -7,6 +7,7 @@ import FlyonuiScript from "./components/FlyonuiScript";
 
 
 import "./globals.css";
+import MobileSidebar from "./components/sidebar/mobile";
 
 const encodeSansCondensed = Encode_Sans_Condensed({
   variable: "--font-encode-sans-condensed",
@@ -42,8 +43,10 @@ export default function RootLayout({
       >
         <div className="relative overflow-x-hidden overflow-y-auto max-h-screen">
           <Nav />
+          
           {children}
           <Footer />
+          <MobileSidebar />
         </div>
         <FlyonuiScript />
       </body>
